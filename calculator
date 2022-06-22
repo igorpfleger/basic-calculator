@@ -1,0 +1,18 @@
+num1 = float(input("Enter the first number: ")) ## ask for the first input
+op = input("Enter operator: ") ## ask for operator
+
+if op != "+" and op != "-" and op != "*" and op != "/": ## check if operator is valid
+    print("Not a valid operator")
+else:
+    num2 = float(input("Enter a second number: ")) ## ask for second input
+    
+if op == "+":
+    print(num1+num2)
+elif op == "-":
+    print(num1-num2)
+elif op == "*":
+    print(num1*num2)
+elif op == "/":
+    print(num1/num2)
+
+input("Press ENTER to exit")
